@@ -1,0 +1,1 @@
+web: python manage.py migrate --settings=config.settings; gunicorn config.wsgi --log-file -
