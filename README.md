@@ -1,5 +1,7 @@
 Hosted the blog on Heroku on https://posh-blog.herokuapp.com/
 
-For password change, the emails are sent to the command line by adding EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'  at the bottom of config/settings.py
+users who are not signed in can not edit or delete a blog
+
+users who are signed in are not able to edit or  delete any other authors blog except theirs.
 
 The homepage and signup pages were tested.
